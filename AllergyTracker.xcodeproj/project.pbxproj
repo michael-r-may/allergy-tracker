@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		332436354D0BC5F962E46BB8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE11A62584F48FFA2CA3071D /* libPods.a */; };
+		661344301D1EE509004ECCDA /* TokenSwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6613442F1D1EE509004ECCDA /* TokenSwiftFile.swift */; };
+		66663E021D1EE5FF00C1D246 /* DummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66663E011D1EE5FF00C1D246 /* DummyTests.swift */; };
 		BE2D74291AC1B4BD000C5815 /* MigrationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D74281AC1B4BD000C5815 /* MigrationManager.m */; };
 		BE4703D11AB137CA001AF1E8 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4703D01AB137CA001AF1E8 /* SettingsTableViewController.m */; };
 		BE4703DB1AB13FDC001AF1E8 /* Interaction+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4703DA1AB13FDC001AF1E8 /* Interaction+Extras.m */; };
@@ -59,8 +61,10 @@
 /* Begin PBXFileReference section */
 		0E1AE1749BE60484F1851335 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		0E8EF7A72DDA1526C6E14D48 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6613442F1D1EE509004ECCDA /* TokenSwiftFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TokenSwiftFile.swift; path = "Supporting Files/TokenSwiftFile.swift"; sourceTree = "<group>"; };
 		664A98341D1E9B1C00EC2E9F /* AllergyTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AllergyTracker-Bridging-Header.h"; path = "../AllergyTracker-Bridging-Header.h"; sourceTree = "<group>"; };
 		664A98371D1E9B4800EC2E9F /* AllergyTrackerTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AllergyTrackerTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		66663E011D1EE5FF00C1D246 /* DummyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyTests.swift; sourceTree = "<group>"; };
 		BE2D74271AC1B4BD000C5815 /* MigrationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MigrationManager.h; path = Model/MigrationManager.h; sourceTree = "<group>"; };
 		BE2D74281AC1B4BD000C5815 /* MigrationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MigrationManager.m; path = Model/MigrationManager.m; sourceTree = "<group>"; };
 		BE4703CF1AB137CA001AF1E8 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
@@ -267,6 +271,7 @@
 		BE8C6BA81AA6BCCD005FC2FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6613442F1D1EE509004ECCDA /* TokenSwiftFile.swift */,
 				BE8C6BA91AA6BCCD005FC2FB /* Info.plist */,
 				BE8C6BAA1AA6BCCD005FC2FB /* main.m */,
 			);
@@ -285,6 +290,7 @@
 		BE8C6BC51AA6BCCD005FC2FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				66663E011D1EE5FF00C1D246 /* DummyTests.swift */,
 				BE8C6BC61AA6BCCD005FC2FB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -511,6 +517,7 @@
 				BE8C6BDE1AA77606005FC2FB /* IncidenceTableViewController.m in Sources */,
 				BEE0EF881ABF65FB00D710FB /* Symptom.m in Sources */,
 				BEB01FC71B1224CD0009F20B /* UIColor+Utilities.m in Sources */,
+				661344301D1EE509004ECCDA /* TokenSwiftFile.swift in Sources */,
 				BE8C6BB11AA6BCCD005FC2FB /* AllergyTracker.xcdatamodeld in Sources */,
 				BE8C6BB41AA6BCCD005FC2FB /* AllergyLogViewController.m in Sources */,
 				BE8C6BAB1AA6BCCD005FC2FB /* main.m in Sources */,
@@ -529,6 +536,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66663E021D1EE5FF00C1D246 /* DummyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
