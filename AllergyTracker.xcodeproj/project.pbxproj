@@ -241,24 +241,24 @@
 		BE8C6BA71AA6BCCD005FC2FB /* AlergyTracker */ = {
 			isa = PBXGroup;
 			children = (
-				BEE0EF7C1ABF5F3E00D710FB /* Views */,
 				BE8C6BAC1AA6BCCD005FC2FB /* AppDelegate.h */,
 				BE8C6BAD1AA6BCCD005FC2FB /* AppDelegate.m */,
-				BE4703D21AB137D7001AF1E8 /* View Controllers */,
 				BE8C6BB51AA6BCCD005FC2FB /* Main.storyboard */,
-				BE8C6BB81AA6BCCD005FC2FB /* Images.xcassets */,
 				BE8C6BBA1AA6BCCD005FC2FB /* LaunchScreen.xib */,
-				BE8C6BAF1AA6BCCD005FC2FB /* AllergyTracker.xcdatamodeld */,
-				BE8C6BA81AA6BCCD005FC2FB /* Supporting Files */,
 				BE8C6BD11AA6C3BB005FC2FB /* RRLocationManager.h */,
 				BE8C6BD21AA6C3BB005FC2FB /* RRLocationManager.m */,
-				BE2D74261AC1B47E000C5815 /* Model */,
 				BEBCAA1F1C960E5900B3CDE3 /* MagicalRecord+BackgroundTask.h */,
 				BEBCAA201C960E5900B3CDE3 /* MagicalRecord+BackgroundTask.m */,
 				BEB8430A1CA968B700398332 /* QuickActions.h */,
 				BEB8430B1CA968B700398332 /* QuickActions.m */,
 				BEB8430D1CA9A0AB00398332 /* NSNumber+Utilities.h */,
 				BEB8430E1CA9A0AB00398332 /* NSNumber+Utilities.m */,
+				BE8C6BAF1AA6BCCD005FC2FB /* AllergyTracker.xcdatamodeld */,
+				BE2D74261AC1B47E000C5815 /* Model */,
+				BEE0EF7C1ABF5F3E00D710FB /* Views */,
+				BE4703D21AB137D7001AF1E8 /* View Controllers */,
+				BE8C6BA81AA6BCCD005FC2FB /* Supporting Files */,
+				BE8C6BB81AA6BCCD005FC2FB /* Images.xcassets */,
 			);
 			path = AlergyTracker;
 			sourceTree = "<group>";
