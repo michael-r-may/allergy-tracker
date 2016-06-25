@@ -11,13 +11,13 @@
 #import "PagingHeaderView.h"
 #import "PagingViewControllerDelegate.h"
 
-
 @interface PagingViewController : UIViewController<PagingViewControllerDelegate>
 
 @property (nonatomic, strong, readonly) UIView *pageView;
 @property (nonatomic, strong, readonly) PagingHeaderView *headerView;
 
-- (void)resetDefaultPage;
+-(void)resetDefaultPage;
 
-- (NSString *)titleTextForDate:(NSDate *)date;
+-(NSString *)titleTextForDate:(NSDate *)date;
+
 @end

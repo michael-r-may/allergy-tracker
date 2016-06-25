@@ -9,14 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-typedef enum {
-    LogInteraction,
-    MarkLocation
-} ShortcutType;
-
 @interface QuickActions : NSObject
 
-+(void)addTopIncidents: (NSArray*) incidents;
-+(BOOL) handleShortcut: (UIApplicationShortcutItem*) item;
++(void)addTopIncidents:(NSArray*)incidents;
+
++(BOOL)handleShortcut:(UIApplicationShortcutItem*)item;
 
 @end

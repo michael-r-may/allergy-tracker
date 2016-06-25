@@ -19,26 +19,33 @@
 static NSString* nameKey = @"name";
 
 +(void)addTopIncidents: (NSArray*) incidents {
-    UIApplication *application = [UIApplication sharedApplication];
     NSMutableArray *shortcutItems = [NSMutableArray array];
+    
     for (NSString* incidentName in incidents) {
         UIMutableApplicationShortcutItem *shortcutItem = [[UIMutableApplicationShortcutItem alloc] initWithType:@"LogInteraction"
                                                                                                  localizedTitle:[NSString stringWithFormat:@"Log %@", [incidentName capitalizedString] ]];
+        
         shortcutItem.userInfo = @{nameKey: incidentName};
+        
         [shortcutItems insertObject:shortcutItem atIndex:0];
     }
+    
+    UIApplication *application = [UIApplication sharedApplication];
     application.shortcutItems = shortcutItems;
 }
 
 +(BOOL) handleShortcut: (UIApplicationShortcutItem*) shortcutItem {
     NSString *shortcutType = shortcutType = shortcutItem.type;
     NSDate *now = [NSDate date];
+    
     [MagicalRecord saveWithBlock:^(NSManagedObjectContext * _Nonnull localContext) {
         Incidence *incidence = [Incidence MR_createEntityInContext:localContext];
+        
         CLLocation *location = [RRLocationManager currentLocation];
         incidence.latitude = @(location.coordinate.latitude);
         incidence.longitude = @(location.coordinate.longitude);
         incidence.time = now;
+        
         if([shortcutItem.type isEqualToString:@"LogInteraction"]) {
             // log the interaction
             incidence.type = (NSString*)shortcutItem.userInfo[nameKey];
@@ -68,6 +75,7 @@ static NSString* nameKey = @"name";
                                                      @"writeSuccess": @(contextDidSave)}];
         }
     }];
+    
     return YES;
 }
 

@@ -20,14 +20,17 @@
     self.symptomId = [[NSUUID UUID] UUIDString];
 }
 
-+(NSArray *)alphabeticacisedSymptomsSelected:(bool) selected {
++(NSArray *)alphabeticacisedSymptomsSelected:(bool)selected {
     NSPredicate *predicate = nil;
+    
     if(selected) {
         predicate = [NSPredicate predicateWithFormat:@"selected=1"];
     }
+    
     NSArray *symptoms = [Symptom MR_findAllWithPredicate:predicate];
     
     NSSortDescriptor *sort = [NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES selector:@selector(localizedCaseInsensitiveCompare:)];
+    
     return [symptoms sortedArrayUsingDescriptors:@[sort]];
 }
 

@@ -25,12 +25,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
     
     _isAnimating = NO;
     _currentPageIndex = 0;
     
-    CGRect headerViewFrame = self.view.frame; 
+    CGRect headerViewFrame = self.view.frame;
     if (![UIApplication sharedApplication].statusBarHidden)
         headerViewFrame.origin.y += 20;
     if(self.navigationController)
@@ -120,7 +120,6 @@
     CGRect newFrameForNewLabel = self.headerView.titleLabel.frame;
     CGRect newFrameForOldLabel = newFrameForNewLabel;
     
-    
     if(newPageIndex < currentIndex)
     {
         newFrameForOldView.origin.x = newFrameForNewView.size.width;
@@ -134,10 +133,10 @@
     
     // set our animating flag so we don't have to worry about multiple transition requests while we're performing a page transition
     _isAnimating = YES;
-
+    
     _headerView.leftArrow.enabled = [self canProvidePreviousPage:newPageIndex];
     _headerView.rightArrow.enabled = [self canProvideNextPage:newPageIndex];
-
+    
     // do the animation and then clear up after ourselves
     [UIView animateWithDuration:0.5 delay:0.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         nextPageView.frame = newFrameForNewView;
@@ -145,7 +144,7 @@
         
         newLabel.frame = newFrameForNewLabel;
         self.headerView.titleLabel.frame = newFrameForOldLabel;
-
+        
     } completion:^(BOOL finished) {
         [_internalPageView removeFromSuperview];
         _internalPageView = nextPageView;
@@ -160,7 +159,7 @@
         
         // update our current page index for future use
         _currentPageIndex = newPageIndex;
-
+        
     }];
 }
 
@@ -211,6 +210,7 @@
 -(UILabel*)_labelForPageAtIndex:(NSInteger)pageIndex
 {
     UILabel *newLabel = [UILabel new];
+    
     CGRect frame = self.headerView.titleLabel.frame;
     
     if(pageIndex > _currentPageIndex)
@@ -222,11 +222,11 @@
     newLabel.backgroundColor = [UIColor clearColor];
     newLabel.text = [self titleForPageAtIndex:pageIndex];
     newLabel.frame = frame;
+    
     [self.headerView insertSubview:newLabel atIndex:0];
     
     return newLabel;
 }
-
 
 -(UIView*)_viewForPageAtIndex:(NSInteger)pageIndex
 {
@@ -252,7 +252,7 @@
     return nextPageView;
 }
 
-#pragma mark - RRPaginTableViewDelegate
+#pragma mark - PagingViewControllerDelegate
 
 -(UIView *)viewForPageAtIndex:(NSInteger)index
 {
@@ -269,6 +269,7 @@
 - (BOOL)canProvidePreviousPage:(NSInteger)index {
     return NO;
 }
+
 - (BOOL)canProvideNextPage:(NSInteger)index {
     return NO;
 }
@@ -279,7 +280,7 @@
     NSDate *today = [NSDate date];
     NSDate *tomorrow = [today rr_addNumberOfDays:1];
     NSDate *yesterday = [today rr_addNumberOfDays:-1];
-
+    
     if([date rr_isSameDayAsDate:[NSDate date]])
     {
         titleTextForDate = @"Today";
@@ -296,6 +297,8 @@
     {
         titleTextForDate = [[NSDateFormatter rr_dateFormatter] stringFromDate:date];
     }
+    
     return titleTextForDate;
 }
+
 @end
