@@ -10,6 +10,7 @@
 		332436354D0BC5F962E46BB8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE11A62584F48FFA2CA3071D /* libPods.a */; };
 		661344301D1EE509004ECCDA /* TokenSwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6613442F1D1EE509004ECCDA /* TokenSwiftFile.swift */; };
 		66663E021D1EE5FF00C1D246 /* DummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66663E011D1EE5FF00C1D246 /* DummyTests.swift */; };
+		66663E061D1EF22C00C1D246 /* NSDate+TitleTextForDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66663E051D1EF22C00C1D246 /* NSDate+TitleTextForDate.m */; };
 		BE2D74291AC1B4BD000C5815 /* MigrationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D74281AC1B4BD000C5815 /* MigrationManager.m */; };
 		BE4703D11AB137CA001AF1E8 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4703D01AB137CA001AF1E8 /* SettingsTableViewController.m */; };
 		BE4703DB1AB13FDC001AF1E8 /* Interaction+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4703DA1AB13FDC001AF1E8 /* Interaction+Extras.m */; };
@@ -66,6 +67,8 @@
 		664A98371D1E9B4800EC2E9F /* AllergyTrackerTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AllergyTrackerTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		66663E011D1EE5FF00C1D246 /* DummyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyTests.swift; sourceTree = "<group>"; };
 		66663E031D1EEE9800C1D246 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		66663E041D1EF22C00C1D246 /* NSDate+TitleTextForDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+TitleTextForDate.h"; path = "Model/NSDate+TitleTextForDate.h"; sourceTree = "<group>"; };
+		66663E051D1EF22C00C1D246 /* NSDate+TitleTextForDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+TitleTextForDate.m"; path = "Model/NSDate+TitleTextForDate.m"; sourceTree = "<group>"; };
 		BE2D74271AC1B4BD000C5815 /* MigrationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MigrationManager.h; path = Model/MigrationManager.h; sourceTree = "<group>"; };
 		BE2D74281AC1B4BD000C5815 /* MigrationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MigrationManager.m; path = Model/MigrationManager.m; sourceTree = "<group>"; };
 		BE4703CF1AB137CA001AF1E8 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
@@ -199,6 +202,8 @@
 				BE2D74281AC1B4BD000C5815 /* MigrationManager.m */,
 				BE4F51701B09EDD400039E6C /* DataManager.h */,
 				BE4F51711B09EDD400039E6C /* DataManager.m */,
+				66663E041D1EF22C00C1D246 /* NSDate+TitleTextForDate.h */,
+				66663E051D1EF22C00C1D246 /* NSDate+TitleTextForDate.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -508,6 +513,7 @@
 				BE8C6BAE1AA6BCCD005FC2FB /* AppDelegate.m in Sources */,
 				BE4F51721B09EDD400039E6C /* DataManager.m in Sources */,
 				BEE6C63C1B77C79900C98433 /* Incidence.m in Sources */,
+				66663E061D1EF22C00C1D246 /* NSDate+TitleTextForDate.m in Sources */,
 				BEE0EF7F1ABF5F9D00D710FB /* SettingTableViewCell.m in Sources */,
 				BEE0EF8B1ABF65FB00D710FB /* Interaction.m in Sources */,
 				BE4F51751B09FAD000039E6C /* UIView+FrameAccessors.m in Sources */,
