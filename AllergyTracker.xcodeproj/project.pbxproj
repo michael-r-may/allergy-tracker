@@ -11,6 +11,8 @@
 		661344301D1EE509004ECCDA /* TokenSwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6613442F1D1EE509004ECCDA /* TokenSwiftFile.swift */; };
 		66663E021D1EE5FF00C1D246 /* DummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66663E011D1EE5FF00C1D246 /* DummyTests.swift */; };
 		66663E061D1EF22C00C1D246 /* NSDate+TitleTextForDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66663E051D1EF22C00C1D246 /* NSDate+TitleTextForDate.m */; };
+		66663E081D1EF89B00C1D246 /* NSDate+TitleTextForDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66663E071D1EF89B00C1D246 /* NSDate+TitleTextForDateTests.swift */; };
+		66663E0A1D1EFAC700C1D246 /* QuickActionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66663E091D1EFAC700C1D246 /* QuickActionsTests.swift */; };
 		BE2D74291AC1B4BD000C5815 /* MigrationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D74281AC1B4BD000C5815 /* MigrationManager.m */; };
 		BE4703D11AB137CA001AF1E8 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4703D01AB137CA001AF1E8 /* SettingsTableViewController.m */; };
 		BE4703DB1AB13FDC001AF1E8 /* Interaction+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4703DA1AB13FDC001AF1E8 /* Interaction+Extras.m */; };
@@ -69,6 +71,8 @@
 		66663E031D1EEE9800C1D246 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		66663E041D1EF22C00C1D246 /* NSDate+TitleTextForDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+TitleTextForDate.h"; path = "Model/NSDate+TitleTextForDate.h"; sourceTree = "<group>"; };
 		66663E051D1EF22C00C1D246 /* NSDate+TitleTextForDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+TitleTextForDate.m"; path = "Model/NSDate+TitleTextForDate.m"; sourceTree = "<group>"; };
+		66663E071D1EF89B00C1D246 /* NSDate+TitleTextForDateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+TitleTextForDateTests.swift"; sourceTree = "<group>"; };
+		66663E091D1EFAC700C1D246 /* QuickActionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickActionsTests.swift; sourceTree = "<group>"; };
 		BE2D74271AC1B4BD000C5815 /* MigrationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MigrationManager.h; path = Model/MigrationManager.h; sourceTree = "<group>"; };
 		BE2D74281AC1B4BD000C5815 /* MigrationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MigrationManager.m; path = Model/MigrationManager.m; sourceTree = "<group>"; };
 		BE4703CF1AB137CA001AF1E8 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
@@ -289,6 +293,8 @@
 			isa = PBXGroup;
 			children = (
 				664A98371D1E9B4800EC2E9F /* AllergyTrackerTests-Bridging-Header.h */,
+				66663E071D1EF89B00C1D246 /* NSDate+TitleTextForDateTests.swift */,
+				66663E091D1EFAC700C1D246 /* QuickActionsTests.swift */,
 				BE8C6BC51AA6BCCD005FC2FB /* Supporting Files */,
 			);
 			path = AlergyTrackerTests;
@@ -544,7 +550,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66663E081D1EF89B00C1D246 /* NSDate+TitleTextForDateTests.swift in Sources */,
 				66663E021D1EE5FF00C1D246 /* DummyTests.swift in Sources */,
+				66663E0A1D1EFAC700C1D246 /* QuickActionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

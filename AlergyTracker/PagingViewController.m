@@ -7,6 +7,7 @@
 //
 
 #import "PagingViewController.h"
+
 #import "NSDate+Utilities.h"
 #import "NSDateFormatter+Utilities.h"
 
@@ -51,12 +52,6 @@
     [_headerView.leftArrow addGestureRecognizer:leftTap];
     
     [self.view addSubview:_headerView];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 -(void)viewWillAppear:(BOOL)animated

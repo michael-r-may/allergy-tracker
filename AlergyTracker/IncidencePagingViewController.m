@@ -9,6 +9,8 @@
 #import "IncidencePagingViewController.h"
 
 #import "NSDate+Utilities.h"
+#import "NSDate+TitleTextForDate.h"
+
 #import "EditIncidenceViewController.h"
 
 #import <Analytics.h>
