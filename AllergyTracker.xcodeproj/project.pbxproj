@@ -23,7 +23,6 @@
 		BE8C6BB71AA6BCCD005FC2FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8C6BB51AA6BCCD005FC2FB /* Main.storyboard */; };
 		BE8C6BB91AA6BCCD005FC2FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8C6BB81AA6BCCD005FC2FB /* Images.xcassets */; };
 		BE8C6BBC1AA6BCCD005FC2FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8C6BBA1AA6BCCD005FC2FB /* LaunchScreen.xib */; };
-		BE8C6BC81AA6BCCD005FC2FB /* AlergyTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8C6BC71AA6BCCD005FC2FB /* AlergyTrackerTests.m */; };
 		BE8C6BD31AA6C3BB005FC2FB /* RRLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8C6BD21AA6C3BB005FC2FB /* RRLocationManager.m */; };
 		BE8C6BD51AA6C3F8005FC2FB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8C6BD41AA6C3F8005FC2FB /* CoreLocation.framework */; };
 		BE8C6BDE1AA77606005FC2FB /* IncidenceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8C6BDD1AA77606005FC2FB /* IncidenceTableViewController.m */; };
@@ -92,7 +91,6 @@
 		BE8C6BBB1AA6BCCD005FC2FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BE8C6BC11AA6BCCD005FC2FB /* AllergyTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllergyTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8C6BC61AA6BCCD005FC2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE8C6BC71AA6BCCD005FC2FB /* AlergyTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlergyTrackerTests.m; sourceTree = "<group>"; };
 		BE8C6BD11AA6C3BB005FC2FB /* RRLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRLocationManager.h; sourceTree = "<group>"; };
 		BE8C6BD21AA6C3BB005FC2FB /* RRLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRLocationManager.m; sourceTree = "<group>"; };
 		BE8C6BD41AA6C3F8005FC2FB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -279,7 +277,6 @@
 			isa = PBXGroup;
 			children = (
 				664A98371D1E9B4800EC2E9F /* AllergyTrackerTests-Bridging-Header.h */,
-				BE8C6BC71AA6BCCD005FC2FB /* AlergyTrackerTests.m */,
 				BE8C6BC51AA6BCCD005FC2FB /* Supporting Files */,
 			);
 			path = AlergyTrackerTests;
@@ -532,7 +529,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE8C6BC81AA6BCCD005FC2FB /* AlergyTrackerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
