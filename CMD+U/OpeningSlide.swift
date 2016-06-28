@@ -2,29 +2,26 @@ import Foundation
 import CoreLocation
 
 struct Event {
-    let conference = CMDU()
-    let talk = TestingAnUntestedApp()
-    let author = MichaelMay()
-}
-
-struct TestingAnUntestedApp {
-    let title = "Testing An Untested App"
-    let format = "Live Coding 😰"
-}
-
-struct MichaelMay {
-    let name = "Michael May"
-    let twitter = "@codermay"
-}
-
-struct CMDU {
-    let eventName = "CMD+U Conference"
-    let location = CLLocation(latitude: 40.33241, longitude: -0.194569)
-    let date = NSDateComponents()
+    let conference = Conference(name: "CMD+U", location: CLLocation(latitude: 40.33241, longitude: -0.194569), date: NSDate(timeIntervalSince1970: 1467972000000))
     
-    init() {
-        date.year = 2016
-        date.month = 7
-        date.day = 8
-    }
+    let talk = TalkSummary(title: "Testing An Untested App", format: "Live Coding 😰")
+    
+    let speaker = Speaker(firstName: "Michael", lastName: "May", twitter: "@codermay")
+}
+
+struct TalkSummary {
+    let title: String
+    let format: String
+}
+
+struct Speaker {
+    let firstName: String
+    let lastName: String
+    let twitter: String
+}
+
+struct Conference {
+    let name: String
+    let location: CLLocation
+    let date: NSDate
 }
