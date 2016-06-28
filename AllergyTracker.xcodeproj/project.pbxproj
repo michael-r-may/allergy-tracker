@@ -13,7 +13,6 @@
 		66663E061D1EF22C00C1D246 /* NSDate+TitleTextForDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66663E051D1EF22C00C1D246 /* NSDate+TitleTextForDate.m */; };
 		66663E081D1EF89B00C1D246 /* NSDate+TitleTextForDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66663E071D1EF89B00C1D246 /* NSDate+TitleTextForDateTests.swift */; };
 		66663E0A1D1EFAC700C1D246 /* QuickActionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66663E091D1EFAC700C1D246 /* QuickActionsTests.swift */; };
-		66663E0E1D1F067800C1D246 /* ReasonsNotToWriteTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66663E0D1D1F067800C1D246 /* ReasonsNotToWriteTestsTests.swift */; };
 		66663E101D2301BE00C1D246 /* OpeningSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66663E0F1D2301BE00C1D246 /* OpeningSlide.swift */; };
 		66663E161D23133300C1D246 /* ClosingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66663E151D23133300C1D246 /* ClosingSlide.swift */; };
 		BE2D74291AC1B4BD000C5815 /* MigrationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D74281AC1B4BD000C5815 /* MigrationManager.m */; };
@@ -75,7 +74,6 @@
 		66663E051D1EF22C00C1D246 /* NSDate+TitleTextForDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+TitleTextForDate.m"; path = "Model/NSDate+TitleTextForDate.m"; sourceTree = "<group>"; };
 		66663E071D1EF89B00C1D246 /* NSDate+TitleTextForDateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+TitleTextForDateTests.swift"; sourceTree = "<group>"; };
 		66663E091D1EFAC700C1D246 /* QuickActionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickActionsTests.swift; sourceTree = "<group>"; };
-		66663E0D1D1F067800C1D246 /* ReasonsNotToWriteTestsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReasonsNotToWriteTestsTests.swift; sourceTree = "<group>"; };
 		66663E0F1D2301BE00C1D246 /* OpeningSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpeningSlide.swift; path = "CMD+U/OpeningSlide.swift"; sourceTree = "<group>"; };
 		66663E121D2308E100C1D246 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "CMD+U/README.md"; sourceTree = "<group>"; };
 		66663E151D23133300C1D246 /* ClosingSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClosingSlide.swift; path = "CMD+U/ClosingSlide.swift"; sourceTree = "<group>"; };
@@ -321,7 +319,6 @@
 			children = (
 				66663E011D1EE5FF00C1D246 /* DummyTests.swift */,
 				BE8C6BC61AA6BCCD005FC2FB /* Info.plist */,
-				66663E0D1D1F067800C1D246 /* ReasonsNotToWriteTestsTests.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -569,7 +566,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66663E0E1D1F067800C1D246 /* ReasonsNotToWriteTestsTests.swift in Sources */,
 				66663E081D1EF89B00C1D246 /* NSDate+TitleTextForDateTests.swift in Sources */,
 				66663E021D1EE5FF00C1D246 /* DummyTests.swift in Sources */,
 				66663E0A1D1EFAC700C1D246 /* QuickActionsTests.swift in Sources */,
