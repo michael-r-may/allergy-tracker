@@ -16,6 +16,7 @@
 		66663E0E1D1F067800C1D246 /* ReasonsNotToWriteTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66663E0D1D1F067800C1D246 /* ReasonsNotToWriteTestsTests.swift */; };
 		66663E101D2301BE00C1D246 /* OpeningSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66663E0F1D2301BE00C1D246 /* OpeningSlide.swift */; };
 		66663E141D23090000C1D246 /* ReasonsNotToWriteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66663E131D23090000C1D246 /* ReasonsNotToWriteTests.swift */; };
+		66663E161D23133300C1D246 /* ClosingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66663E151D23133300C1D246 /* ClosingSlide.swift */; };
 		BE2D74291AC1B4BD000C5815 /* MigrationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D74281AC1B4BD000C5815 /* MigrationManager.m */; };
 		BE4703D11AB137CA001AF1E8 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4703D01AB137CA001AF1E8 /* SettingsTableViewController.m */; };
 		BE4703DB1AB13FDC001AF1E8 /* Interaction+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4703DA1AB13FDC001AF1E8 /* Interaction+Extras.m */; };
@@ -79,6 +80,7 @@
 		66663E0F1D2301BE00C1D246 /* OpeningSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpeningSlide.swift; path = "CMD+U/OpeningSlide.swift"; sourceTree = "<group>"; };
 		66663E121D2308E100C1D246 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "CMD+U/README.md"; sourceTree = "<group>"; };
 		66663E131D23090000C1D246 /* ReasonsNotToWriteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReasonsNotToWriteTests.swift; path = "CMD+U/ReasonsNotToWriteTests.swift"; sourceTree = "<group>"; };
+		66663E151D23133300C1D246 /* ClosingSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClosingSlide.swift; path = "CMD+U/ClosingSlide.swift"; sourceTree = "<group>"; };
 		BE2D74271AC1B4BD000C5815 /* MigrationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MigrationManager.h; path = Model/MigrationManager.h; sourceTree = "<group>"; };
 		BE2D74281AC1B4BD000C5815 /* MigrationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MigrationManager.m; path = Model/MigrationManager.m; sourceTree = "<group>"; };
 		BE4703CF1AB137CA001AF1E8 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				66663E0F1D2301BE00C1D246 /* OpeningSlide.swift */,
 				66663E121D2308E100C1D246 /* README.md */,
 				66663E131D23090000C1D246 /* ReasonsNotToWriteTests.swift */,
+				66663E151D23133300C1D246 /* ClosingSlide.swift */,
 			);
 			name = "CMD+U";
 			sourceTree = "<group>";
@@ -560,6 +563,7 @@
 				BE4703DB1AB13FDC001AF1E8 /* Interaction+Extras.m in Sources */,
 				BE4703DE1AB14187001AF1E8 /* Symptom+Extras.m in Sources */,
 				BE2D74291AC1B4BD000C5815 /* MigrationManager.m in Sources */,
+				66663E161D23133300C1D246 /* ClosingSlide.swift in Sources */,
 				BEBCAA211C960E5900B3CDE3 /* MagicalRecord+BackgroundTask.m in Sources */,
 				BE8C6BD31AA6C3BB005FC2FB /* RRLocationManager.m in Sources */,
 			);
