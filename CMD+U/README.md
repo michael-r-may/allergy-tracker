@@ -2,7 +2,7 @@
 
 It allows you to do two things, basically;
 
-* Record when you ingest a suspected allergens (so, pollen, dust, alcohol, cats, dairy, and so on).
+* Record when you ingest suspected allergens (so, pollen, dust, alcohol, cats, dairy, and so on).
 
 * Record when you experience the allergies you suffer from (Abdominal Pain, Coughs, Dizziness, Sneezing, etc).
 
