@@ -1,10 +1,15 @@
 import Foundation
 
 struct ThankYou {
-    let talk = TalkSummary(title: "Testing An Untested App", format: "Live Coding 😀")
-    let speaker = Speaker(firstName: "Michael", lastName: "May", twitter: "@codermay")
+    let talk = TalkSummary(title:  "Testing An Untested App",
+                           format: "Live Coding 😀")
     
-    let appSource = GitHubRepo(sourceURL: NSURL(string: "https://github.com/radicalrobot/allergy-tracker")!, author: "Emily Toop")
+    let speaker = Speaker(firstName: "Michael",
+                          lastName:  "May",
+                          twitter:   "@codermay")
+    
+    let appSource = GitHubRepo(sourceURL: NSURL(string: "https://github.com/radicalrobot/allergy-tracker")!,
+                               author: "Emily Toop")
 }
 
 struct GitHubRepo {
