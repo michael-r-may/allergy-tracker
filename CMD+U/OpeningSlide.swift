@@ -2,12 +2,9 @@ import Foundation
 import CoreLocation
 
 struct Event {
-    let talk = TalkSummary(title:  "Testing An Untested App",
-                           format: "Live Coding 😰")
+    let talk = TalkSummary(title: "Testing An Untested App",      format: "Live Coding 😰")
     
-    let speaker = Speaker(firstName: "Michael",
-                          lastName:  "May",
-                          twitter:   "@codermay")
+    let speaker = Speaker(name: "Michael May",     twitter: "@codermay")
     
     let conference = Conference(name: "CMD+U",
                                 location: CLLocation(latitude: 40.33241, longitude: -0.194569),
@@ -20,8 +17,7 @@ struct TalkSummary {
 }
 
 struct Speaker {
-    let firstName: String
-    let lastName: String
+    let name: String
     let twitter: String
 }
 
