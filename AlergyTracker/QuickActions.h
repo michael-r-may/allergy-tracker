@@ -16,3 +16,10 @@
 +(BOOL)handleShortcut:(UIApplicationShortcutItem*)item;
 
 @end
+
+
+@interface QuickActions (Testable)
+
++(NSString*)shortcutTitleForIncidentName:(NSString*)incidentName;
+
+@end

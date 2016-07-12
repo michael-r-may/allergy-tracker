@@ -59,7 +59,7 @@ static NSString * const kSegueIdentifier = @"EditIncidenceSegue";
 }
 
 -(NSString *)titleForPageAtIndex:(NSInteger)index {
-    return [self titleTextForDate:self.currentController.currentDate];
+    return [NSDate titleTextForDate:self.currentController.currentDate];
 }
 
 -(BOOL)canProvideNextPage:(NSInteger)index {

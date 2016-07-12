@@ -18,6 +18,10 @@
 
 static NSString* nameKey = @"name";
 
++(NSString*)shortcutTitleForIncidentName:(NSString*)incidentName {
+    return [NSString stringWithFormat:@"Log %@", [incidentName capitalizedString]];
+}
+
 +(void)addTopIncidents: (NSArray*) incidents {
     NSMutableArray *shortcutItems = [NSMutableArray array];
     

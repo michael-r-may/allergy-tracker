@@ -214,7 +214,7 @@ static UIColor* badgeColor;
             }
             Incidence *newlyCreatedIncidence = [Incidence MR_findFirstByAttribute:@"time" withValue:now];
             
-            NSArray *top2Incidents = [Incidence getTopIncidentsWithLimit:2];
+            NSArray<NSString *> *top2Incidents = [Incidence getTopIncidentsWithLimit:2];
             [QuickActions addTopIncidents: top2Incidents];
             
             [[SEGAnalytics sharedAnalytics] track:@"Logged Incident"

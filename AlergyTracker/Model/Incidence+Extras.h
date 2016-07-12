@@ -12,7 +12,7 @@
 
 @property (nonatomic, readonly) NSString * displayName;
 
-+(NSArray*)getTopIncidents;
-+(NSArray*)getTopIncidentsWithLimit:(int)limit;
++(NSArray<NSString *>*)getTopIncidents;
++(NSArray<NSString *>*)getTopIncidentsWithLimit:(NSUInteger)limit;
 
 @end

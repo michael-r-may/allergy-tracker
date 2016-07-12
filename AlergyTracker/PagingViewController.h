@@ -18,6 +18,4 @@
 
 -(void)resetDefaultPage;
 
--(NSString *)titleTextForDate:(NSDate *)date;
-
 @end
